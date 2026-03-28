@@ -6,6 +6,7 @@ this is a practice project to practice backend development in node js
 Run the following commands to use Yarn Berry:
 
 1. Open PowerShell as Administrator and run:
+
    ```bash
    corepack enable
 ````
