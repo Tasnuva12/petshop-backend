@@ -9,7 +9,7 @@ Run the following commands to use Yarn Berry:
 
    ```bash
    corepack enable
-````
+```
 
 2. Activate Yarn Berry(on your project)
 
