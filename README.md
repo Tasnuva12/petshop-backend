@@ -9,27 +9,27 @@ Run the following commands to use Yarn Berry:
 ### 1. Enable Corepack
 
 Open PowerShell as Administrator and run:
-```bash
+```powershell
 corepack enable
 ```
 
 ### 2. Activate Yarn Berry
 
 Activate Yarn Berry on your project:
-```bash
+```powershell
 corepack prepare yarn@stable --activate
 ```
 
 ### 3. Enable Plug'n'Play (PnP)
 
 Configure Yarn to use PnP for faster installs:
-```bash
+```powershell
 yarn config set nodeLinker pnp
 ```
 
 ### 4. Install Dependencies
 
 Install all project dependencies:
-```bash
+```powershell
 yarn install
 ```
