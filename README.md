@@ -1,33 +1,35 @@
 # petshop-backend
-this is a practice project to practice backend development in node js 
-````md
+
+This is a practice project to practice backend development in Node.js.
+
 ## 🧶 Setup Yarn Berry
 
 Run the following commands to use Yarn Berry:
 
-1. Open PowerShell as Administrator and run:
+### 1. Enable Corepack
 
-   ```bash
-   corepack enable
+Open PowerShell as Administrator and run:
+```bash
+corepack enable
 ```
 
-2. Activate Yarn Berry(on your project)
+### 2. Activate Yarn Berry
 
-   ```bash
-   corepack prepare yarn@stable --activate
-   ```
-
-3. Enable Plug'n'Play (PnP):
-
-   ```bash
-   yarn config set nodeLinker pnp
-   ```
-
-4. Install dependencies:
-
-   ```bash
-   yarn install
-   ```
-
+Activate Yarn Berry on your project:
+```bash
+corepack prepare yarn@stable --activate
 ```
+
+### 3. Enable Plug'n'Play (PnP)
+
+Configure Yarn to use PnP for faster installs:
+```bash
+yarn config set nodeLinker pnp
+```
+
+### 4. Install Dependencies
+
+Install all project dependencies:
+```bash
+yarn install
 ```
